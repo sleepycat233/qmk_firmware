@@ -1,0 +1,56 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "D:/Programming/Visual_Studio/VC/Tools/MSVC/14.28.29333/include/*",
+                "D:/Programming/Visual_Studio/VC/Tools/MSVC/14.28.29333/atlmfc/include/*",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt",
+                "D:/Programming/Visual_Studio/VC/Tools/MSVC/14.28.29333/include",
+                "D:/Electronics/kb/QMK_MSYS/mingw64/avr/include/**",
+                "D:/Electronics/kb/QMK_MSYS/mingw64/lib/gcc/avr/8.4.0/include/**",
+                "D:/Electronics/kb/QMK_MSYS/mingw64/lib/gcc/avr/8.4.0/include-fixed/**",
+                "D:/Electronics/kb/QMK_MSYS/mingw64/arm-none-eabi/include/**",
+                "D:/Electronics/kb/QMK_MSYS/mingw64/lib/gcc/arm-none-eabi/10.1.0/include/**",
+                "D:/Electronics/kb/QMK_MSYS/mingw64/lib/gcc/arm-none-eabi/10.1.0/include-fixed/**",
+                "D:/Electronics/kb/QMK_MSYS/mingw64/avr/include/**",
+                "D:/Electronics/kb/QMK_MSYS/mingw64/arm-none-eabi/include/**",
+                "D:/Electronics/kb/QMK_MSYS/mingw64/lib/gcc/avr/8.4.0/include/**",
+                "D:/Electronics/kb/QMK_MSYS/mingw64/lib/gcc/avr/8.4.0/include-fixed/**",
+                "D:/Electronics/kb/QMK_MSYS/mingw64/lib/gcc/arm-none-eabi/10.1.0/include/**",
+                "D:/Electronics/kb/QMK_MSYS/mingw64/lib/gcc/arm-none-eabi/10.1.0/include-fixed/**",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/quantum/**",
+                // "${workspaceFolder}/tmk_core/common/**",
+                "${workspaceFolder}/quantum/audio/**",
+                "${workspaceFolder}/quantum/process_keycode/**",
+                // "${workspaceFolder}/drivers/avr/**",
+                "${workspaceFolder}/lib/chibios/**",
+                "${workspaceFolder}/lib/lufa/**"
+            ],
+            "defines": [
+                "QMK_KEYBOARD_H=<quantum.h>"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "D:/Programming/Visual_Studio/VC/Tools/MSVC/14.28.29333/include/*",
+                    "D:/Programming/Visual_Studio/VC/Tools/MSVC/14.28.29333/atlmfc/include/*",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
